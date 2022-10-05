@@ -1,0 +1,64 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (min-width: 800px) {
+    .tak{
+        margin: 0px auto;
+        width: 30%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tak{
+        margin: 0px auto;
+        width: 50%;
+        padding: 10px;
+    }
+}
+.tak .disp{
+    text-align: right;
+    background-color: red;
+    color: white;
+    font-size: 3em;
+    width: 100%;
+    padding: 20px 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.boxbutton div{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 15px 0px;
+}
+.boxbutton button{
+    margin: 0px 0px ;
+    border: none;
+    width: 20%;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: -5px 5px 0px red;
+}
+.boxbutton button.del{
+    background-color: peachpuff;
+    box-shadow: -5px 5px 0px rgb(211, 0, 211);
+}
+.boxbutton button.res{
+    background-color: rgb(99, 99, 99);
+    box-shadow: -5px 5px 0px rgb(211, 0, 211);
+}
+.boxbutton button.ans{
+    background-color: purple;
+    box-shadow: -5px 5px 0px rgb(211, 0, 211);
+}
+
+.boxbutton div.resetrow button{
+    width: 40%
+}
+.boxbutton button:hover{
+    cursor: pointer;
+}
